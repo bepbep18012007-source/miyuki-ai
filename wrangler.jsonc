@@ -1,14 +1,17 @@
+
 {
   "$schema": "https://developers.cloudflare.com/workers/wrangler/configuration/schema.json",
   "name": "miyuki-ai",
   "main": "src/index.js",
   "compatibility_date": "2026-11-20",
-  "ai": { "binding": "AI" },
+  "ai": {
+    "binding": "AI"
+  },
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "miyuki-memory",
-      "database_id": "PASTE_YOUR_D1_DATABASE_ID_HERE"
+      "database_name": "miyuki-memory-2026",
+      "database_id": "a13228eb-7a0e-4d32-a9b3-aee55d636072"
     }
   ],
   "assets": {
